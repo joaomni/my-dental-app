@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+:root {
+    --blue-thin: #01CFC9;
+    --blue-strong: #0F2650;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -26,5 +31,57 @@ html {
 
 main {
     width: 1280px;
-    margin: auto;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+@media only screen and (max-width: 1100px) {
+    #whatsapp {
+        display: none;
+    }
+    .logo p {
+        font-size: 1em !important;
+    }
+    .logo svg {
+        width: 20px;
+        height: 20px;
+    }
+    .home {
+        flex-direction: column;
+    }
+    .home main {
+        width: auto !important;
+    }
+    .image {
+        display: flex;
+        justify-content: center;
+        width: auto !important;
+        margin-top: 2em;
+    }
+    .image img {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .logo {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        margin-top: 1em;
+    }
+    ul {
+        flex-direction: column;
+        gap: 0 !important;
+    }
+    .home {
+        margin-top: 0 !important;
+    }
+    .infos {
+        flex-direction: column;
+        gap: 1em;
+    }
 }

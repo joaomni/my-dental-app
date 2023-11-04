@@ -4,3 +4,4 @@ layout: base.njk
 ---
 
 {% include "header.njk" %}
+{% include "home.njk" %}
