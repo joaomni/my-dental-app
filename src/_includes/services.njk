@@ -2,30 +2,15 @@
   <h1 class="section-title">NOSSOS SERVIÇOS</h1>
   <p class="section-text">Nossa lista de tratamentos</p>
   <main>
+    {% for service in services %}
     <card-services 
-      title="Prótese dentárias" 
-      description="Tecnologia avançada com resultados surpreendentes" 
-      link="https://raw.githubusercontent.com/joaomni/cdn/main/protese-dentaria.svg.svg"
+      title="{{ service.title }}" 
+      description="{{ service.description }}" 
+      link="{{ service.image_url }}"
+      style="display: flex; justify-content: center;"
     >
     </card-services>
-    <card-services 
-      title="Prótese dentárias" 
-      description="Tecnologia avançada com resultados surpreendentes" 
-      link="https://raw.githubusercontent.com/joaomni/cdn/main/protese-dentaria.svg.svg"
-    >
-    </card-services>
-    <card-services 
-      title="Prótese dentárias" 
-      description="Tecnologia avançada com resultados surpreendentes" 
-      link="https://raw.githubusercontent.com/joaomni/cdn/main/protese-dentaria.svg.svg"
-    >
-    </card-services>
-    <card-services 
-      title="Prótese dentárias" 
-      description="Tecnologia avançada com resultados surpreendentes" 
-      link="https://raw.githubusercontent.com/joaomni/cdn/main/protese-dentaria.svg.svg"
-    >
-    </card-services>
+    {% endfor %}
   </main>
   <a href="#cel" rel="canonical" class="button">Descubra mais</a>
 </section>
@@ -42,9 +27,10 @@
   }
   .services main {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 2em;
+    width: 100%;
   }
   .section-title {
     color: var(--blue-thin);

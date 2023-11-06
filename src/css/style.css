@@ -34,6 +34,8 @@ html {
 .home {
     display: flex;
     margin-top: 2em;
+    justify-content: flex-start;
+    align-items: stretch;
 }
 .home main {
     display: flex;
@@ -70,6 +72,10 @@ html {
     height: 25px;
 }
 .image {
+    background-image: url("https://raw.githubusercontent.com/joaomni/cdn/main/foto_site_dentista.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     width: 50%;
 }
 .infos {
@@ -109,17 +115,8 @@ html {
     .home main {
         width: auto !important;
     }
-    .image {
-        display: flex;
-        justify-content: center;
-        width: auto !important;
-        margin-top: 2em;
-    }
-    .image img {
-        width: 100%;
-    }
-
     .services main {
+        justify-content: center !important;
         flex-wrap: wrap;
     }
     .about {

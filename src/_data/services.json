@@ -1,0 +1,22 @@
+[
+  {
+      "title": "Prótese dentárias",
+      "image_url": "https://raw.githubusercontent.com/joaomni/cdn/main/protese-dentaria.svg.svg",
+      "description": "Tecnologia avançada com resultados surpreendentes"
+  },
+  {
+    "title": "Ortodontia",
+    "image_url": "https://raw.githubusercontent.com/joaomni/cdn/main/ortodontia.svg",
+    "description": "Selagem do canal limpo e desinfetado"
+  },
+  {
+    "title": "Branqueamento",
+    "image_url": "https://raw.githubusercontent.com/joaomni/cdn/main/branqueamento.svg",
+    "description": "Limpeza profissional com ferramentas manuais"
+  },
+  {
+    "title": "Cuidado dental",
+    "image_url": "https://raw.githubusercontent.com/joaomni/cdn/main/cuidado_dental.svg",
+    "description": "Tratamentos profissionais de higiene oral."
+  }
+]

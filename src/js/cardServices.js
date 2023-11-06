@@ -46,8 +46,9 @@ document.addEventListener("DOMContentLoaded", function() {
         gap: 1em;
         padding: 26px !important;
         font-size: 14px;
-        width: 80% !important;
         transition: all 0.4s ease !important;
+        width: 200px;
+        height: 200px;
       }
       .card-services:hover {
         border: 1px solid var(--blue-strong);
