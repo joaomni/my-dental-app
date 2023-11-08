@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "question": "Quando você deve escovar os dentes durante o dia?",
+    "response": "Após 20 ou 30 minutos após as refeições principais, para permitir que a saliva neutralize a acidez de alguns alimentos, como frutas cítricas, café e refrigerantes. Os dentes devem ser escovados por pelo menos dois minutos. Aqueles que sofrem de inflamação nas gengivas devem atingir 4-5."
+  },
+  {
+    "id": 2,
+    "question": "Que alimentos ajudam a manter os dentes limpos se você usar aparelho?",
+    "response": "Alimentos ricos em fibras, como frutas, legumes e pães integrais, são uma boa opção, pois ajudam a limpar os dentes e a língua. O leite e seus derivados também são importantes para a saúde dos dentes, pois são fontes de cálcio. Por outro lado, é importante evitar alimentos doces, pegajosos e duros, pois podem causar cáries, gengivite e até mesmo quebrar o aparelho."
+  },
+  {
+    "id": 3,
+    "question": "Como limpar os dentes das crianças corretamente?",
+    "response": "Escove os dentes das crianças duas vezes ao dia, por dois minutos, usando uma escova de dentes de cerdas macias e cabeça pequena. A pasta de dentes deve conter flúor. A escova deve ser colocada em um ângulo de 45 graus em relação às gengivas e as cerdas devem deslizar suavemente para frente e para trás, cobrindo todas as superfícies dos dentes. Também é importante ensinar os filhos a escovar a língua."
+  },
+  {
+    "id": 4,
+    "question": "As escovas de dente com cerdas duras proporcionam uma limpeza mais profunda?",
+    "response": "As escovas de dentes com cerdas duras podem causar danos aos dentes e às gengivas. Elas podem remover o esmalte dos dentes, irritar as gengivas e causar sangramento. As escovas de dentes com cerdas macias são mais suaves e eficazes para limpar os dentes e as gengivas. Elas removem a placa bacteriana e os restos de comida sem causar danos."
+  },
+  {
+    "id": 5,
+    "question": "Qual a importância da higiene bucal para fumantes?",
+    "response": "Fumar aumenta o risco de problemas de saúde bucal, como cáries, gengivite, periodontite e mau hálito. A fumaça do cigarro contém toxinas que podem danificar os dentes, as gengivas e as estruturas que sustentam os dentes."
+  }
+]

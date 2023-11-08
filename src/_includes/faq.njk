@@ -2,41 +2,15 @@
   <h1 class="title">FAQ</h1>
   <p class="subtitle">Você tem alguma pergunta?</p>
   <main>
+    {% for faq in faqs -%}
     <article class="faq-box">
       <div>
-        <h1>Quando você deve escovar os dentes durante o dia?</h1>
-        <div class="faq-button open" data-target="box1" onclick="test(this)"></div>
+        <h1>{{ faq.question }}</h1>
+        <div class="faq-button open" data-target="box{{ faq.id }}" onclick="test(this)"></div>
       </div>
-      <p class="invisible" id="box1">Após 20 ou 30 minutos após as refeições principais, para permitir que a saliva neutralize a acidez de alguns alimentos, como frutas cítricas, café e refrigerantes. Os dentes devem ser escovados por pelo menos dois minutos. Aqueles que sofrem de inflamação nas gengivas devem atingir 4-5.</p>
+      <p class="invisible" id="box{{ faq.id }}">{{ faq.response }}</p>
     </article>
-    <article class="faq-box">
-      <div>
-        <h1>Quando você deve escovar os dentes durante o dia?</h1>
-        <div class="faq-button open" data-target="box2" onclick="test(this)"></div>
-      </div>
-      <p class="invisible" id="box2">Após 20 ou 30 minutos após as refeições principais, para permitir que a saliva neutralize a acidez de alguns alimentos, como frutas cítricas, café e refrigerantes. Os dentes devem ser escovados por pelo menos dois minutos. Aqueles que sofrem de inflamação nas gengivas devem atingir 4-5.</p>
-    </article>
-    <article class="faq-box">
-      <div>
-        <h1>Quando você deve escovar os dentes durante o dia?</h1>
-        <div class="faq-button open" data-target="box3" onclick="test(this)"></div>
-      </div>
-      <p class="invisible" id="box3">Após 20 ou 30 minutos após as refeições principais, para permitir que a saliva neutralize a acidez de alguns alimentos, como frutas cítricas, café e refrigerantes. Os dentes devem ser escovados por pelo menos dois minutos. Aqueles que sofrem de inflamação nas gengivas devem atingir 4-5.</p>
-    </article>
-    <article class="faq-box">
-      <div>
-        <h1>Quando você deve escovar os dentes durante o dia?</h1>
-        <div class="faq-button open" data-target="box4" onclick="test(this)"></div>
-      </div>
-      <p class="invisible" id="box4">Após 20 ou 30 minutos após as refeições principais, para permitir que a saliva neutralize a acidez de alguns alimentos, como frutas cítricas, café e refrigerantes. Os dentes devem ser escovados por pelo menos dois minutos. Aqueles que sofrem de inflamação nas gengivas devem atingir 4-5.</p>
-    </article>
-    <article class="faq-box">
-      <div>
-        <h1>Quando você deve escovar os dentes durante o dia?</h1>
-        <div class="faq-button open" data-target="box5" onclick="test(this)"></div>
-      </div>
-      <p class="invisible" id="box5">Após 20 ou 30 minutos após as refeições principais, para permitir que a saliva neutralize a acidez de alguns alimentos, como frutas cítricas, café e refrigerantes. Os dentes devem ser escovados por pelo menos dois minutos. Aqueles que sofrem de inflamação nas gengivas devem atingir 4-5.</p>
-    </article>
+    {%- endfor %}
   </main>
 
   <a href="#cel" rel="canonical" class="button">Saiba mais</a>
