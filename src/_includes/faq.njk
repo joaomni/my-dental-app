@@ -1,0 +1,97 @@
+<section class="faq">
+  <h1 class="title">FAQ</h1>
+  <p class="subtitle">Você tem alguma pergunta?</p>
+  <main>
+    <article class="faq-box">
+      <div>
+        <h1>Quando você deve escovar os dentes durante o dia?</h1>
+        <div class="faq-button open" data-target="box1" onclick="test(this)"></div>
+      </div>
+      <p class="invisible" id="box1">Após 20 ou 30 minutos após as refeições principais, para permitir que a saliva neutralize a acidez de alguns alimentos, como frutas cítricas, café e refrigerantes. Os dentes devem ser escovados por pelo menos dois minutos. Aqueles que sofrem de inflamação nas gengivas devem atingir 4-5.</p>
+    </article>
+    <article class="faq-box">
+      <div>
+        <h1>Quando você deve escovar os dentes durante o dia?</h1>
+        <div class="faq-button open" data-target="box2" onclick="test(this)"></div>
+      </div>
+      <p class="invisible" id="box2">Após 20 ou 30 minutos após as refeições principais, para permitir que a saliva neutralize a acidez de alguns alimentos, como frutas cítricas, café e refrigerantes. Os dentes devem ser escovados por pelo menos dois minutos. Aqueles que sofrem de inflamação nas gengivas devem atingir 4-5.</p>
+    </article>
+    <article class="faq-box">
+      <div>
+        <h1>Quando você deve escovar os dentes durante o dia?</h1>
+        <div class="faq-button open" data-target="box3" onclick="test(this)"></div>
+      </div>
+      <p class="invisible" id="box3">Após 20 ou 30 minutos após as refeições principais, para permitir que a saliva neutralize a acidez de alguns alimentos, como frutas cítricas, café e refrigerantes. Os dentes devem ser escovados por pelo menos dois minutos. Aqueles que sofrem de inflamação nas gengivas devem atingir 4-5.</p>
+    </article>
+    <article class="faq-box">
+      <div>
+        <h1>Quando você deve escovar os dentes durante o dia?</h1>
+        <div class="faq-button open" data-target="box4" onclick="test(this)"></div>
+      </div>
+      <p class="invisible" id="box4">Após 20 ou 30 minutos após as refeições principais, para permitir que a saliva neutralize a acidez de alguns alimentos, como frutas cítricas, café e refrigerantes. Os dentes devem ser escovados por pelo menos dois minutos. Aqueles que sofrem de inflamação nas gengivas devem atingir 4-5.</p>
+    </article>
+    <article class="faq-box">
+      <div>
+        <h1>Quando você deve escovar os dentes durante o dia?</h1>
+        <div class="faq-button open" data-target="box5" onclick="test(this)"></div>
+      </div>
+      <p class="invisible" id="box5">Após 20 ou 30 minutos após as refeições principais, para permitir que a saliva neutralize a acidez de alguns alimentos, como frutas cítricas, café e refrigerantes. Os dentes devem ser escovados por pelo menos dois minutos. Aqueles que sofrem de inflamação nas gengivas devem atingir 4-5.</p>
+    </article>
+  </main>
+</section>
+
+<style>
+  .faq {
+    margin-top: 8em;
+    text-align: center;
+    display: grid;
+    gap: 1.5em;
+    font-size: 18px;
+  }
+  .faq main {
+    display: grid;
+    gap: 1.3em;
+  }
+  .faq-box {
+    text-align: left;
+    display: grid;
+    gap: 1em;
+    border-radius: 28px;
+    border: 1px solid var(--blue-thin);
+    background: #FFF;
+    padding: 22px 68px;
+  }
+  .faq-box div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .faq-box h1 {
+    color: var(--blue-strong);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .faq-button {
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+  }
+  .close {
+    background-image: url('https://raw.githubusercontent.com/joaomni/cdn/main/close-button.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .open {
+    background-image: url('https://raw.githubusercontent.com/joaomni/cdn/main/open-button.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .visible {
+    display: block;
+  }
+  .invisible {
+    display: none;
+  }
+</style>

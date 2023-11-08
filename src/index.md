@@ -16,3 +16,4 @@ layout: base.njk
     {%- endfor %}
   </div>
 {% include "more.njk" %}
+{% include "faq.njk" %}
