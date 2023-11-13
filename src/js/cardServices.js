@@ -3,9 +3,9 @@ document.addEventListener("DOMContentLoaded", function() {
     constructor() {
       super()
 
-      const shadow = this.attachShadow({ mode: "open" })
-      shadow.appendChild(this.build())
-      shadow.appendChild(this.styles())
+      const shadowDOM = this.attachShadow({ mode: "open" })
+      shadowDOM.appendChild(this.build())
+      shadowDOM.appendChild(this.styles())
     }
 
     build() {

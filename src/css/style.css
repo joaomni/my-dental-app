@@ -164,7 +164,7 @@ html {
         width: auto !important;
     }
     /* FAQ */
-    .faq-box h1 {
+    summary {
         font-size: 20px !important;
     }
 }
@@ -182,10 +182,10 @@ html {
         justify-content: center !important;
     }
     /* FAQ */
-    .faq-box {
+    details {
         padding: 22px 22px !important;
       }
-    .faq-box h1 {
+    summary {
         font-size: 20px !important;
     }
 }
@@ -206,10 +206,10 @@ html {
         gap: 1em;
     }
     /* FAQ */
-    .faq-box {
+    details {
         padding: 22px 22px !important;
       }
-    .faq-box h1 {
+    summary {
         font-size: 14px !important;
     }
 }
