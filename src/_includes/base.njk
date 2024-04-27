@@ -14,9 +14,10 @@
   <title>{{ title }}</title>
 </head>
 <body>
-  <main>
+  <main class="container">
     {{ content | safe }}
   </main>
+  {% include "footer.njk" %}
   <script type="text/javascript" src="/js/cardServices.js"></script>
 </body>
 </html>

@@ -1,0 +1,20 @@
+<section class="statement">
+  <h1 class="title">NOSSAS AVALIAÇÕES</h1>
+  <p class="subtitle">O que els dizem sobre nós</p>
+  <main>
+    {% for statement in statements -%}
+    <div class="statement-card">
+      <div class="statement-img" style="background-image: url('{{ statement.image_url }}');"></div>
+      <h1>{{ statement.name }}</h1>
+      <p>{{ statement.description }}</p>
+      <div class="star-box">
+        <div class="full-star"></div>
+        <div class="full-star"></div>
+        <div class="full-star"></div>
+        <div class="full-star"></div>
+        <div class="full-star"></div>
+      </div>
+    </div>
+    {%- endfor %}
+  </main>
+</section>

@@ -1,0 +1,18 @@
+[
+  {
+    "icon": "https://raw.githubusercontent.com/joaomni/cdn/main/mail.svg",
+    "info": "info@odontosite.com.br"
+  },
+  {
+    "icon": "https://raw.githubusercontent.com/joaomni/cdn/main/tel.svg",
+    "info": "(13) 99140-2511"
+  },
+  {
+    "icon": "https://raw.githubusercontent.com/joaomni/cdn/main/clock.svg",
+    "info": "Seg-Sab 9h00-20h00"
+  },
+  {
+    "icon": "https://raw.githubusercontent.com/joaomni/cdn/main/local.svg",
+    "info": "R. Newton Prado, 449 - Sala 310 - Vila Hortência, Sorocaba - SP, 18020-210"
+  }
+]

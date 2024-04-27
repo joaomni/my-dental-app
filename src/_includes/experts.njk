@@ -3,12 +3,12 @@
   <p class="subtitle">Conheça nossos especialistas</p>
 
   <main>
-    {% for more in mores -%}
+    {% for expert in experts -%}
     <div class="more-card">
-      <div class="more-img" style="background-image: url('{{ more.image_url }}');"></div>
+      <div class="more-img" style="background-image: url('{{ expert.image_url }}');"></div>
       <div class="more-title">
-        <h1>{{ more.title }}</h1>
-        <p>{{ more.subtitle }}</p>
+        <h1>{{ expert.title }}</h1>
+        <p>{{ expert.subtitle }}</p>
       </div>
     </div>
     {%- endfor %}

@@ -21,15 +21,18 @@
 
 body {
     background-color: #eefbfa;
-    width: 1280px;
-    margin: 0 auto;
-    padding: 0 20px;
     color: rgba(0, 0, 0, 0.74);
     font-weight: 500;
 }
 
 html {
     font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .title {
@@ -378,6 +381,123 @@ details[open] summary::before {
 }
 
 /* FAQ */
+/* STATEMENT */
+.statement {
+    text-align: center;
+    display: grid;
+    gap: 2em;
+    margin-top: 8em;
+}
+
+.statement main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+.statement-card {
+    width: 385px;
+    height: 224px;
+    border-radius: 44px;
+    border: 1px solid var(--blue-thin);
+    background: #fff;
+    text-align: center;
+    margin-top: 6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+.statement-card h1 {
+    color: var(--blue-strong);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.statement-card p {
+    font-size: 15px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.statement-img {
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.star-box {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+.full-star {
+    background-image: url('https://raw.githubusercontent.com/joaomni/cdn/main/full-star.svg');
+    width: 15px;
+    height: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+/* STATEMENT */
+/* FOOTER */
+.contact {
+    background-color: #bef2f0;
+}
+.c-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1280px;
+    margin: 8em auto 0px auto;
+    padding: 4em 20px;
+}
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.footer-logo p {
+    font-weight: 900;
+    font-size: 2em;
+    color: var(--blue-strong);
+}
+
+.footer-logo span {
+    color: var(--blue-thin);
+}
+.contact-box {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    align-items: end;
+    justify-items: end;
+    margin-top: 2em;
+}
+.info {
+    font-size: 18px;
+    color: #313f3e;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.contact-infos {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.social {
+    display: flex;
+    gap: 1em;
+}
+/* FOOTER */
 /* RESPONSIVIDADE */
 @media only screen and (max-width: 1100px) {
     #whatsapp {
@@ -418,6 +538,19 @@ details[open] summary::before {
     summary {
         font-size: 20px !important;
     }
+
+    /* PROFISSIONAIS */
+    .more main {
+        justify-content: center;
+    }
+    /* DEPOIMENTOS */
+    .statement main {
+        justify-content: center;
+    }
+    /* DEPOIMENTOS */
+    .statement-card {
+        margin-top: 1em;
+    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -442,6 +575,9 @@ details[open] summary::before {
 
     summary {
         font-size: 20px !important;
+    }
+    summary p {
+        width: 84%;
     }
 }
 
@@ -471,5 +607,18 @@ details[open] summary::before {
 
     summary {
         font-size: 14px !important;
+    }
+    /* DEPOIMENTOS */
+    .statement-card {
+        width: auto;
+        padding: 0px 4px;
+        height: 244px;
+    }
+
+    /* FOOTER */
+    .contact-box {
+        grid-auto-flow: row;
+        justify-items: flex-start;
+        row-gap: 2em;
     }
 }

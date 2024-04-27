@@ -1,5 +1,5 @@
 ---
-title: My first page
+title: Clínica Odontológica Martinez
 layout: base.njk
 ---
 
@@ -15,5 +15,6 @@ layout: base.njk
     </div>
     {%- endfor %}
   </div>
-{% include "more.njk" %}
+{% include "experts.njk" %}
 {% include "faq.njk" %}
+{% include "statement.njk" %}
