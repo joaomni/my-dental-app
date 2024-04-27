@@ -1,5 +1,5 @@
 ---
-title: Clínica Odontológica Martinez
+title: Clínica Odontológica
 layout: base.njk
 ---
 
