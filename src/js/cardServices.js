@@ -41,19 +41,4 @@ document.addEventListener('DOMContentLoaded', function () {
 	}
 
 	customElements.define('card-services', CardComponent)
-
-	// Seleciona todas as imagens com a classe .social
-  var insta = document.getElementById('insta')
-	var face = document.getElementById('face')
-	var logo = document.getElementById('logo')
-
-	insta.addEventListener('click', function () {
-		window.open("https://www.instagram.com/", '_blank')
-	})
-	face.addEventListener('click', function () {
-		window.open("https://www.facebook.com/", '_blank')
-	})
-	logo.addEventListener('click', function () {
-		location.reload()
-	})
 })

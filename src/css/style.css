@@ -27,6 +27,7 @@ body {
 
 html {
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -53,20 +54,20 @@ header {
     margin-top: 2.5em;
 }
 
-.logo {
+.logo a {
     display: flex;
     align-items: center;
     gap: 0.5em;
     cursor: pointer;
 }
 
-.logo p {
+.logo a p {
     font-weight: 900;
     font-size: 2em;
     color: var(--blue-strong);
 }
 
-.logo span {
+.logo a span {
     color: var(--blue-thin);
 }
 

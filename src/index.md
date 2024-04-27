@@ -1,6 +1,9 @@
 ---
 title: Clínica Odontológica
 layout: base.njk
+instagram: https://www.instagram.com/
+facebook: https://www.facebook.com/
+whatsapp: https://api.whatsapp.com/send?phone=5513991027026&text=Ol%C3%A1!
 ---
 
 {% include "header.njk" %}
